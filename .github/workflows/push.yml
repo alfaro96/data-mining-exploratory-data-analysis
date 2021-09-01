@@ -1,0 +1,24 @@
+# Workflow to push a kernel to Kaggle
+name: Publish PyPI
+
+on:
+  push:
+    # Push for the main branch
+    - main
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: bash $GITHUB_WORKSPACE/.github/tools/install.sh
+
+      - name: Push kernel
+        run: bash $GITHUB_WORKSPACE/.github/tools/push.sh
+        env:
+            KAGGLE_API: ${{ secrets.KAGGLE_API }}
+            KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}

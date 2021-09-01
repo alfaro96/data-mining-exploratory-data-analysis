@@ -1,0 +1,9 @@
+{
+    "id": "alfaro96/data-mining-exploratory-analysis",  // The URL of the kernel
+    "title": "Data Mining: Exploratory Data Analysis",  // The title of the kernel
+    "code_file": "notebook.ipynb",  // The path to the kernel source code
+    "language": "python",  // The language the kernel is written in
+    "kernel_type": "notebook",  // The type of kernel
+    "is_private": "false",  // Whether or not the kernel should be private
+    "enable_internet": "true"  // Whether or not the kernel should be able to access the internet
+}
