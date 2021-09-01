@@ -21,5 +21,5 @@ jobs:
       - name: Push kernel
         run: bash $GITHUB_WORKSPACE/.github/tools/push.sh
         env:
-            KAGGLE_API: ${{ secrets.KAGGLE_API }}
+            KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
             KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
