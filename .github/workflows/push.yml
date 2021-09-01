@@ -1,10 +1,11 @@
 # Workflow to push a kernel to Kaggle
-name: Publish PyPI
+name: Push kernel
 
 on:
   push:
-    # Push for the main branch
-    - main
+    branches:
+      # Trigger the workflow on push to the main branch
+      - main
 
 jobs:
   push:
