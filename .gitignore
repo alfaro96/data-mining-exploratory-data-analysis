@@ -1,14 +1,17 @@
 # Unit tests and coverage reports
-.cache/
+.cache
 
 # Jupyter notebooks
-.ipynb_checkpoints/
-.jupyter/
+.config
+.cufflinks
+.ipynb_checkpoints
+.ipython
+.jupyter
 
 # Kaggle stuff
-.kaggle/
+.kaggle
 
 # General files
 .bash_history
 .DS_Store
-.local/
+.local

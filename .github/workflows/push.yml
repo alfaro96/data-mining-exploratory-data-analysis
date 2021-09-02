@@ -4,7 +4,7 @@ name: Push kernel
 on:
   push:
     branches:
-      # Trigger the workflow on push to the main branch
+      # Trigger on push to the main branch
       - main
 
 jobs:

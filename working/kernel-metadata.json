@@ -1,9 +1,10 @@
 {
-    "id": "alfaro96/data-mining-exploratory-analysis",
+    "id": "alfaro96/data-mining-exploratory-data-analysis",
     "title": "Data Mining: Exploratory Data Analysis",
     "code_file": "notebook.ipynb",
     "language": "python",
     "kernel_type": "notebook",
     "is_private": "false",
-    "enable_internet": "true"
+    "enable_internet": "true",
+    "data_sources": ["uciml/iris"] 
 }
