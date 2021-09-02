@@ -2,4 +2,4 @@
 
 set -e
 
-kaggle kernels push -p .
+kaggle kernels push -p working
