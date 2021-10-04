@@ -6,5 +6,6 @@
     "kernel_type": "notebook",
     "is_private": "false",
     "enable_internet": "true",
-    "data_sources": ["uciml/iris"] 
+    "data_sources": ["uciml/iris"],
+    "competition_sources": ["titanic"]
 }
