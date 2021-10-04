@@ -4,6 +4,6 @@ services:
     user: jupyter
     working_dir: /home/jupyter/working
     ports: ["8888:8888"]
-    volumes: [$PWD:/home/jupyter]
+    volumes: [.:/home/jupyter]
     image: gcr.io/kaggle-images/python
     command: jupyter notebook --ip="0.0.0.0"
