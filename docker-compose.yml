@@ -1,9 +1,0 @@
-services:
-  # Run Jupyter notebook inside a container
-  jupyter:
-    user: jupyter
-    working_dir: /home/jupyter/working
-    ports: ["8888:8888"]
-    volumes: [$PWD:/home/jupyter]
-    image: gcr.io/kaggle-images/python
-    command: jupyter notebook --ip="0.0.0.0"
